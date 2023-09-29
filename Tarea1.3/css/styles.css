@@ -1,0 +1,49 @@
+body {
+    border: 5px double #2c3e50; /* Ponemos el margen y el color del mismo */    
+}
+#enc img {
+    position: relative;
+    top: -30px; /* Acomodamos la imagen hacia arriba */
+    margin-top: 70px; /* Acomodamos la imagen determinando la separacion que tiene con el top de la pagina */
+}
+div#enc {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 30;
+}
+nav {
+    border-top: 5px solid #000; /* Bordes de las lineas*/
+    border-bottom: 2px solid #000; /* Bordes de las lineas*/
+    width: 70%; 
+    margin: auto; /* Centra el elemento en la página */
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 100px; /* Espacio entre los elementos */
+}
+desc{
+    position: relative;
+}
+div#piano{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+a:link {
+    color: #000000; /*Nos muestra las paginas con redireccionamiento de color negro */ 
+}
+a:visited {
+    color: #fb1804; /*Cuando damos click a las palabras estas cambian de color indicando que ya se entro o clickeo la pagina*/
+}
+a:hover {
+    color: #96c93d; /*Cuando posicionamos el cursor sobre las palabras estas reaccionan */
+}
+a:active {
+    color: #a299f2; /*Cuando damos click, este cambia de color indicando el click */
+}
